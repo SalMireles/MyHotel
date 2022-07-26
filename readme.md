@@ -72,7 +72,7 @@ This is a simple api to book hotel rooms.
 
 ### Built With
 
-  [![Flask][Next.js]][Next-url]
+  [![Flask][flask-shield]][flask-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -112,7 +112,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+WIP
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -172,6 +172,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- https://github.com/Ileriayo/markdown-badges -->
 
 [issues-shield]: https://img.shields.io/github/issues/SalMireles/simple-booking-api.svg?style=for-the-badge
 
@@ -179,7 +180,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [license-shield]: https://img.shields.io/github/license/SalMireles/simple-booking-api.svg?style=for-the-badge
 
-[license-url]: https://github.com/SalMireles/simple-booking-api/LICENSE.txt
+[license-url]: https://github.com/SalMireles/simple-booking-api/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
@@ -187,7 +188,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [product-screenshot]: images/cloud.jpg
 
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[flask-shield]: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
 
-[Next-url]: https://nextjs.org/
+[flask-url]: https://flask.palletsprojects.com/en/2.1.x/
 
