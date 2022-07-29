@@ -165,6 +165,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgments
 
 * [Awesome README](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+* [Creating SQLite Test DB](https://www.quackit.com/sqlite/tutorial/create_a_relationship.cfm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
