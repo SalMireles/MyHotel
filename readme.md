@@ -67,6 +67,13 @@
 
 This is a simple api to book hotel rooms.
 
+##### Architecture Info
+- Hotels
+  - Layered: Database (db) --> Operations --> Routers
+  - Database defines the models and creates sessions, and initializes the database with data
+  - Operations uses the database models to perform operations (e.g compute prices)
+  - Routers used operations to perform tasks, handles authentication, and routes endpoints
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -91,7 +98,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://WIP.com](https://example.com)
+1. Get a private API Key (contact Sal)
 2. Clone the repo
    ```sh
    git clone https://github.com/SalMireles/simple-booking-api
@@ -116,6 +123,7 @@ This is an example of how to list things you need to use the software and how to
    ```make
    make get endpoint=""
    make get endpoint="rooms"
+   make get endpoint="room/2"
    ```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -127,9 +135,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] TBD
-    - [ ] TBD
-    - [ ] TBD
+- [x] Define API Models
+- [x] Create layered architecture scaffold
+- [ ] Add bookings router and add operations for room bookings
 
 See the [open issues](https://github.com/SalMireles/simple-booking-api/issues) for a full list of proposed features (and known issues).
 
