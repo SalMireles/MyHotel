@@ -119,12 +119,23 @@ This is an example of how to list things you need to use the software and how to
    ```make
    make run
    ```
-3. Get endpoint
+3. Get request
    ```make
    make get endpoint=""
    make get endpoint="rooms"
    make get endpoint="room/2"
+   make get endpoint="customers"
+   make get endpoint="customer/3"
    ```
+4. Post request: Create customer
+   ```sh
+   curl -X POST -H "Content-Type: application/json" -d '{"first_name": "Susan", "last_name": "Ivanova", "email_address": "susan@b5.com"}' http://localhost:8000/customer
+   ```
+5. Post request: Update customer
+   ```sh
+   curl -X POST -H "Content-Type: application/json" -d '{"first_name": "Suzy"}' http://localhost:8000/customer/6
+   ```
+  
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -137,7 +148,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Define API Models
 - [x] Create layered architecture scaffold
-- [ ] Add bookings router and add operations for room bookings
+- [x] Create customer route
+- [ ] Add bookings route and add operations for room bookings
 
 See the [open issues](https://github.com/SalMireles/simple-booking-api/issues) for a full list of proposed features (and known issues).
 
