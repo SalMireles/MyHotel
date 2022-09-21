@@ -7,4 +7,5 @@ run:
 	uvicorn main:app --reload
 
 get:
-	@curl -X GET http://localhost:8000/$(arg)
+	# base endpoint. See main.py for all endpoints
+	@curl -X GET http://localhost:8000/$(endpoint)

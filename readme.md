@@ -96,14 +96,6 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/SalMireles/simple-booking-api
    ```
-3. Install packages
-   ```sh
-   poetry install
-   ```
-4. Boot the app
-   ```sh
-   flask run
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -112,7 +104,19 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-WIP
+1. Install packages and boot virtual environment
+   ```make
+   make install
+   ```
+2. Boot the app server using uvicorn
+   ```make
+   make run
+   ```
+3. Get endpoint
+   ```make
+   make get endpoint=""
+   make get endpoint="rooms"
+   ```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
